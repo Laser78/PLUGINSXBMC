@@ -34,13 +34,5 @@
             <description></description>
             <platform>all</platform>
     </extension>
-	<extension point="xbmc.addon.metadata">
-			<summary lang="en">Free Radio And Mp3 Streaming</summary>
-			<description lang="en">Free MP3 streaming Of Your Favourite Songs And Radio Stations</description>
-			<disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon</disclaimer>
-			<platform>all</platform>
-			<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
-			<language>en</language>
-		</extension>
 </addon>
 </addons>
