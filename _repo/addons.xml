@@ -45,7 +45,7 @@
   </extension>
 </addon>
 
-    <addon id="PLUGINSXBMC" name="PLUGINSXBMC REPO" version="1.8.0" provider-name="LASER">
+    <addon id="PLUGINSXBMC" name="PLUGINSXBMC REPO" version="1.9.0" provider-name="LASER">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
