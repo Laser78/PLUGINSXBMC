@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-    <addon id="PLUGINSXBMC" name="PRUEBA" version="2.6.2" provider-name="LASER">
+    <addon id="PLUGINSXBMC" name="PRUEBA" version="0.3.2" provider-name="LASER">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
