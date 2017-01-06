@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-    <addon id="PLUGINSXBMC" name="PLUGINSXBMC Repo" version="1.1.0" provider-name="LASER">
+    <addon id="PLUGINSXBMC" name="PLUGINSXBMC Repo" version="1.5.0" provider-name="LASER">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
@@ -15,5 +15,18 @@
             <description></description>
             <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="repository.mdiptv" name="MDIPTV REPO" version="1.0" provider-name="CHS">
+	<extension point="xbmc.addon.repository" name="MDIPTV">
+		<info compressed="false">http://maddogiptv-kodi.comli.com/Addons/addons.xml</info>
+		<checksum>http://maddogiptv-kodi.comli.com/Addons/addons.xml.md5</checksum>
+		<datadir zip="true">http://maddogiptv-kodi.comli.com/Addons/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Maddog Addons for Kodi</summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
 </addon>
 </addons>
