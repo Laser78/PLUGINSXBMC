@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+    <addon id="PLUGINSXBMC" name="PLUGINSXBMC Repo" version="1.3" provider-name="LASER">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="PLUGINSXBMC Repo">
+            <info compressed="false">https://raw.githubusercontent.com/Laser78/PLUGINSXBMC/master/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Laser78/PLUGINSXBMC/master/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Laser78/PLUGINSXBMC/master/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Repositorio Oficial de PLUGINSXBMC</summary>
+            <description></description>
+            <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.catoal" name="Catoal repository" version="1.0.0" provider-name="Catoal">
+	<extension point="xbmc.addon.repository" name="Catoal Repository">
+		<info compressed="false">http://raw.github.com/catoalkodi/repository.catoal/master/addons.xml</info>
+		<checksum>http://raw.github.com/catoalkodi/repository.catoal/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/catoalkodi/repository.catoal/master/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Catoal Addon</summary>
+		<description>Addon Description</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.mdiptv" name="MDIPTV REPO" version="1.0" provider-name="CHS">
+	<extension point="xbmc.addon.repository" name="MDIPTV">
+		<info compressed="false">http://maddogiptv-kodi.comli.com/Addons/addons.xml</info>
+		<checksum>http://maddogiptv-kodi.comli.com/Addons/addons.xml.md5</checksum>
+		<datadir zip="true">http://maddogiptv-kodi.comli.com/Addons/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Maddog Addons for Kodi</summary>
+		<description></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="repository.shani" name="Shanis Addon Repository" version="2.9" provider-name="Shani">
+	<extension point="xbmc.addon.repository" name="Shanis Addon Repository">
+        <dir>
+			<info compressed="false">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml</info>
+			<checksum>https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/addons.xml.md5</checksum>
+			<datadir zip="true">https://offshoregit.com/tvaresolvers/tva-common-repository/raw/master/zips/</datadir>
+		</dir>
+
+    <info compressed="false">https://offshoregit.com/Shani-08/main/addons.xml</info>
+    <checksum>https://offshoregit.com/Shani-08/main/addons.xml.md5</checksum>
+    <datadir zip="true">https://offshoregit.com/Shani-08/main/zips</datadir>
+
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Addons related to XBMC for Zemtv etc</summary>
+		<description>Go though the plugins and see what you like</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
